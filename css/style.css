@@ -1,0 +1,325 @@
+/* PLACEHOLDER */
+
+::-webkit-input-placeholder {color:#b8b8bf;}
+::-moz-placeholder          {color:#b8b8bf;}/* Firefox 19+ */
+:-moz-placeholder           {color:#b8b8bf;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#b8b8bf;}
+/* ----------- */
+
+body{
+	font-family: 'Exo', sans-serif;
+	font-weight: 500;
+}
+p{
+	font-family: 'Exo', sans-serif;
+	font-weight: 500;
+	color: #838281;
+	line-height: 27px;
+}
+a{
+	font-family: 'Exo', sans-serif;
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+h1, h4{
+	font-family: 'Exo', sans-serif;
+}
+.contact h2{
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+	letter-spacing: 1px;
+}
+
+h3{
+	font-family: 'Exo', sans-serif;
+	font-weight: 500;
+	font-size: 13px;
+	color: #ff6d6d;
+	text-transform: uppercase;
+}
+h5{
+	font-family: 'Exo', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.guys h6{
+	font-family: 'Exo', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 1px;
+}
+span{
+	color: #ff6d6d;
+}
+
+/*Header*/
+
+header{
+	background: url(../images/header_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 813px;
+}
+
+.home_text h1{
+	color: #282828;
+	font-size: 50px;
+	letter-spacing: 8px;
+	font-family: 'Exo', sans-serif;
+	font-weight: 100;
+	margin-top: 227px;
+	margin-bottom: 55px;
+}
+
+.home_text h4{
+	padding-top: 8px;
+	color: #898a8d;
+	font-family: 'Exo', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.btn{
+	color: #fff; /* цвет текста */
+  	text-decoration: none; /* убирать подчёркивание у ссылок */
+  	user-select: none; /* убирать выделение текста */
+  	background: #ff6d6d; /* фон кнопки */
+  	padding: 1em 1.5em; /* отступ от текста */
+  	outline: none; /* убирать контур в Mozilla */
+  	display: block;
+  	width: 195px;
+  	margin: 37px auto 0 auto;
+}
+
+.btn:hover{
+	color: #fff;
+	background: #FF6D64;
+}
+.btn:active{
+	color: #fff;
+	background: #ff6d6d;
+}
+.btn:focus{
+	color: #fff;
+	background: #ff6d6d;
+}
+
+/* Section 1 */
+
+section.services{
+	background: url(../images/section_bg.jpg) no-repeat;
+	background-position: 100% 0;
+	height: 722px;
+}
+
+.section_1{
+	padding-top: 190px;
+}
+
+/* Section 2 features*/
+
+section.features{
+	background: url(../images/section2_bg.jpg) no-repeat;
+	background-size: cover;
+	height: 760px;
+	padding-top: 130px;
+}
+
+.cont{
+	padding-top: 90px;
+}
+
+/* Section 3 design */
+
+.design{
+	background: url(../images/design_bg.jpg) no-repeat;
+	height: 550px;
+}
+
+.design_text{
+	padding-top: 135px;
+}
+
+/* Section 4 partners */
+
+.partners{
+	background: url(../images/partners_bg.jpg) no-repeat;
+	background-size: cover;
+	height: 640px;
+	padding-top: 105px;
+}
+
+.partners img{
+	width: 20%;
+}
+.guys p{
+	font-family: 'Exo', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.ul_wrap img{
+	padding-top: 90px;
+	width: 100px;
+}
+
+/* Section 5 browser */
+
+.browser{
+	background: url(../images/browser_bg.jpg) no-repeat;
+	background-color: #f6f5f3;
+	background-position: 50% 100%;
+	height: 750px;
+	padding-top: 105px;
+}
+
+/* Section 6 contact */
+
+.contact{
+	background-color: #323969;
+	height: 515px;
+}
+
+.contact_text{
+	padding-top: 90px;
+}
+
+.arrow p{
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	padding: 30px 0;
+}
+.arrow_img{
+	position: absolute;
+	top: -50px;
+	left: 30px;
+}
+
+form input{
+	background-color: #464c77;
+	padding: 10px 10px;
+	border: 1px solid #fff;
+	border-radius: 2px;
+	width: 260px;
+	color: #fff;
+}
+
+.contact_btn{
+	color: #fff; /* цвет текста */
+  	text-decoration: none; /* убирать подчёркивание у ссылок */
+  	user-select: none; /* убирать выделение текста */
+  	background: #ff6d6d; /* фон кнопки */
+  	padding: 5px 10px; /* отступ от текста */
+  	outline: none; /* убирать контур в Mozilla */
+  	display: block;
+  	width: 260px;
+  	height: 43px;
+  	border: 1px solid #ff6d6d;
+  	border-radius: 2px;
+  			-o-border-radius: 2px;
+  			-webkit-border-radius: 2px;
+  			-moz-border-radius: 2px;
+}
+
+.contact h4{
+	color: #b6b7c2;
+}
+.contact a{
+	color: #b6b7c2;
+	text-decoration: underline;
+}
+.footer{
+	padding: 52px 0 83px 0;
+}
+
+/* FOOTER */
+
+footer{
+	background: url(../images/footer_bg.jpg) no-repeat;
+	background-position: 100% 0;
+	height: 330px;
+}
+
+.wrap{
+	padding-top: 83px;
+}
+
+.wrap p>a{
+	color: #838281;
+}
+
+.wrap form>input{
+	background-color: #f6f6f6;
+	border: 1px solid #b8b8bf;
+	color: #838281;
+	width: 80%;
+}
+.wrap button{
+	background: url(../images/letter.png) no-repeat;
+	background-size: cover;
+	background-color: #ff6d6d;
+	background-position: center;
+	border: 1px solid #ff6d6d;
+	border-radius: 2px;
+	width: 42px;
+	height: 42px;
+	position: absolute;
+}
+
+.icons ul{
+	list-style-type: none;
+}
+.icons ul li{
+	display: inline-block;
+	margin-right: 25px;
+	margin-top: 18px;
+}
+.icons a:hover{
+	text-decoration: none;
+}
+
+/* Scroll to top 
+----------------*/
+.scroll-up a{
+	-webkit-border-radius: 30%;
+	   -moz-border-radius: 30%;
+		 -o-border-radius: 30%;
+			border-radius: 30%;
+}
+.scroll-up {
+	position: fixed;
+	display: none;
+	z-index: 999;
+	bottom: 2em;
+	right: 2em;
+}
+
+.scroll-up a {
+	background-color: rgba(135, 135, 135, 0.5);
+	display: block;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.scroll-up a:hover,
+.scroll-up a:active {
+	background-color: rgba(235, 235, 235, .8);
+	color: #e7746f;
+}
+
+/* OVERFLOW hidden */
+.overf{
+	overflow: hidden;
+}
